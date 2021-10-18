@@ -1,0 +1,11 @@
+﻿@model ViewImagesViewModel
+
+<div class="col-md-8 offset-md-2">
+   
+        <div class="mb-4">
+            <img src="/uploads/@Model.Image.ImageName" style="width: 500px;" />
+            <h2>Views: @Model.Image.Views</h2>
+            <h3>@Model.Image.TimeUploaded.ToLongTimeString()</h3>
+        </div>
+
+</div>

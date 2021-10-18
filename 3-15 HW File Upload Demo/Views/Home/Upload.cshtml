@@ -1,0 +1,12 @@
+﻿@model ViewImagesViewModel 
+<div class="row">
+    <div class="col-md-8 offset-md-2 jumbotron">
+        <h3>
+            Thank you for uploading your images,
+            here's the link to share with your friends:
+            <a href="https://localhost:44346/home/PreView?id=@Model.Image.Id">https://localhost:44346/home/PreView?id=@Model.Image.Id</a>
+            
+            Make sure to give them the password of "@Model.Image.Password"
+        </h3>
+    </div>
+</div>
